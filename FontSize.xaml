@@ -1,0 +1,15 @@
+﻿<Window x:Class="DataRefresh2.FontSize"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataRefresh2"
+        mc:Ignorable="d"
+        Title="Font Size" Height="150" Width="340" Icon="Warehouse Worker.png" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label x:Name="lblFontSize" Content="FontSize : " HorizontalAlignment="Left" Margin="25,20,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cboFontSize" HorizontalAlignment="Left" Margin="120,20,0,0" VerticalAlignment="Top" Width="175" MaxDropDownHeight="200"/>
+        <Button x:Name="cmdSave" Content="Save" HorizontalAlignment="Left" Height="29" Margin="55,65,0,0" VerticalAlignment="Top" Width="80" Click="cmdSave_Click"/>
+        <Button x:Name="cmdClose" Content="Close" HorizontalAlignment="Left" Height="29" Margin="180,65,0,0" VerticalAlignment="Top" Width="80" Click="cmdCancel_Click" />
+    </Grid>
+</Window>
