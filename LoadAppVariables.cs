@@ -24,13 +24,13 @@ namespace DataRefresh2
 
             // get path to local file
             #region Local FIle
-            LocalFile = AppDomain.CurrentDomain.BaseDirectory + "lclDataRefresh.ini";
+            LocalFile = AppDomain.CurrentDomain.BaseDirectory + "lclIPCWarehouseApplication.ini";
             IniFile iniLocal = new IniFile(LocalFile);
             Location = iniLocal.IniReadValue("UserSettings", "Location");
             BayNo = iniLocal.IniReadValue("UserSettings", "BayNo");
             TimerDelay = iniLocal.IniReadValue("UserSettings", "TimerDelay");
             GlobalFile = iniLocal.IniReadValue("Paths", "GlobalFile");
-            if (File.Exists(AppDomain.CurrentDomain.BaseDirectory + "lclDataRefresh.ini"))
+            if (File.Exists(AppDomain.CurrentDomain.BaseDirectory + "lclIPCWarehouseApplication.ini"))
             {
                 try
                 {
