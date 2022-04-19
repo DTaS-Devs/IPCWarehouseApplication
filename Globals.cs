@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Text.RegularExpressions;
 using System.Windows;
 
-namespace DataRefresh2
+namespace IPCWarehouseApplication
 {
     public class Globals
     {

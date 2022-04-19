@@ -15,7 +15,7 @@ using System.Data;
 using System.Data.SqlClient;
 using Ini;
 
-namespace DataRefresh2
+namespace IPCWarehouseApplication
 {
     /// <summary>
     /// Interaction logic for TimerDelay.xaml

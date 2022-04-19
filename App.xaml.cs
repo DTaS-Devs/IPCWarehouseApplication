@@ -11,7 +11,7 @@ using System.Windows.Threading;
 using System.Reflection;
 using System.Diagnostics;
 
-namespace DataRefresh2
+namespace IPCWarehouseApplication
 {
     /// <summary>
     /// Interaction logic for App.xaml

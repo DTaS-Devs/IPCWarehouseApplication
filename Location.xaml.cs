@@ -4,7 +4,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Windows;
 
-namespace DataRefresh2
+namespace IPCWarehouseApplication
 {
     /// <summary>
     /// Interaction logic for Location.xaml

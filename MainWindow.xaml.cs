@@ -18,7 +18,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Ini;
 
-namespace DataRefresh2
+namespace IPCWarehouseApplication
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

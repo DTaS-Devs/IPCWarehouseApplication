@@ -4,7 +4,7 @@ using System.Windows;
 using System.Threading.Tasks;
 using Ini;
 
-namespace DataRefresh2
+namespace IPCWarehouseApplication
 {
     class LoadAppVariables
     {

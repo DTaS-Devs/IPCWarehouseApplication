@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Input;
 
-namespace DataRefresh2
+namespace IPCWarehouseApplication
 {
     /// <summary>
     /// Interaction logic for About.xaml

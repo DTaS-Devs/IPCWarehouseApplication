@@ -9,7 +9,7 @@ using System.Data.SqlClient;
 using System.Text.RegularExpressions;
 
 
-namespace DataRefresh2
+namespace IPCWarehouseApplication
 {
     public class User
     {
